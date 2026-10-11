@@ -1,0 +1,44 @@
+{
+  "slug": "krd-flower-gagarina",
+  "name": "Цветы",
+  "city": "Краснодар",
+  "category": "Магазин цветов",
+  "address": "Краснодар, ул. Гагарина, 232 · этаж цокольный",
+  "phone": "+7 (989) 232-61-41",
+  "hours": "Пн 07:00–23:00; Вт 07:00–23:00; Ср 07:00–23:00; Чт 07:00–23:00; Пт 07:00–23:00; Сб 07:00–23:00; Вс 07:00–23:00",
+  "map": "https://yandex.ru/maps/org/flowers/79438145767/",
+  "orgId": "79438145767",
+  "rating": 4.7,
+  "ratingCount": 24,
+  "reviewCount": 13,
+  "reviews": [
+    {
+      "text": "Шикарные цветы, долго стоят, хороший ассортимент и приятный ценник.",
+      "name": "Григорян Лилиана",
+      "rating": 5,
+      "url": "https://yandex.ru/maps/org/flowers/79438145767/reviews/?reviewId=2LQdYg9EGQo3xT3zA-HpauVc7YbFR7pgf",
+      "date": "2025-05-30T13:06:16.078Z"
+    }
+  ],
+  "socials": [
+    {
+      "label": "whatsapp",
+      "url": "https://wa.me/79024069002"
+    },
+    {
+      "label": "max",
+      "url": "https://max.ru/u/f9LHodD0cOJvgoOT2o0Y_38IpzAPzxNvjB24ee9nIW0dmkZ2RG3tSFQ_3N8"
+    }
+  ],
+  "headline": "Цветы",
+  "tagline": "Букет к вашему поводу. Поможем выбрать.",
+  "services": [
+    "Букеты",
+    "Доставка цветов",
+    "Упаковка подарков"
+  ],
+  "allPhones": [
+    "+7 (989) 232-61-41",
+    "+7 (902) 406-90-02"
+  ]
+}

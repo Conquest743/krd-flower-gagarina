@@ -1,0 +1,5 @@
+import {business as raw,Call,HeroImage,Quote,Reveal,ContactMap,Footer} from './components';
+import full from './business.json';
+const b={...raw,tagline:full.tagline};
+function ServiceLines(){return <ul className="service-lines">{full.services.map(s=><li key={s}>{s}</li>)}</ul>}
+export default function App(){return <div className="wrap"><header><a className="brand" href="#top">{b.name}</a><div className="header-right"><nav aria-label="Навигация"><a href="#reviews">Отзывы</a><a href="#contact">Адрес и часы</a></nav><Call>Позвонить</Call></div></header><main id="top"><section className="hero hero-flowers"><h1>Цветы</h1><div className="flower-row"><HeroImage/><div className="hero-copy"><p>{b.tagline}</p><Call>Обсудить букет</Call><p className="small">На Гагарина, 232<br/>Краснодар</p></div></div></section><div id="reviews"><Reveal><Quote/></Reveal><section className="flower-services"><h2>Для важного<br/>момента.</h2><div><ServiceLines/><p>Расскажите, для кого выбираете букет. Состав, наличие цветов и стоимость уточняйте при заказе.</p></div></section></div><ContactMap/></main><Footer/></div>}
